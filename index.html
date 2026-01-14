@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek Trigonometri Interaktif</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-triangle"></i> Proyek Pembelajaran Trigonometri</h1>
+            <p class="subtitle">Materi, Contoh Soal, dan Kalkulator Trigonometri Interaktif</p>
+        </header>
+
+        <div class="team-section">
+            <h2><i class="fas fa-users"></i> Anggota Tim</h2>
+            <div class="team-members">
+                <div class="member">
+                    <div class="member-icon">B</div>
+                    <h3>Bumi</h3>
+                    <p>RPL</p>
+                </div>
+                <div class="member">
+                    <div class="member-icon">B</div>
+                    <h3>Brilian</h3>
+                    <p>RPL</p>
+                </div>
+                <div class="member">
+                    <div class="member-icon">D</div>
+                    <h3>Danis</h3>
+                    <p>RPL</p>
+                </div>
+                <div class="member">
+                    <div class="member-icon">T</div>
+                    <h3>Tofan</h3>
+                    <p>RPL</p>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div class="content-grid">
+                <section class="card intro-card">
+                    <h2><i class="fas fa-book-open"></i> Apa Itu Trigonometri?</h2>
+                    <p>Trigonometri adalah cabang matematika yang mempelajari hubungan antara sudut dan panjang sisi dalam segitiga, khususnya segitiga siku-siku. Konsep dasar trigonometri melibatkan tiga fungsi utama:</p>
+                    <div class="trigo-functions">
+                        <div class="function">
+                            <h3>Sinus (sin)</h3>
+                            <p>Perbandingan sisi depan dengan sisi miring</p>
+                            <div class="formula">sin θ = depan / miring</div>
+                        </div>
+                        <div class="function">
+                            <h3>Kosinus (cos)</h3>
+                            <p>Perbandingan sisi samping dengan sisi miring</p>
+                            <div class="formula">cos θ = samping / miring</div>
+                        </div>
+                        <div class="function">
+                            <h3>Tangen (tan)</h3>
+                            <p>Perbandingan sisi depan dengan sisi samping</p>
+                            <div class="formula">tan θ = depan / samping</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card example-card">
+                    <h2><i class="fas fa-question-circle"></i> Contoh Soal dan Penyelesaian</h2>
+                    <div class="example">
+                        <h3>Contoh Soal 1</h3>
+                        <p>Sebuah segitiga siku-siku memiliki sisi depan sudut θ sepanjang 6 cm dan sisi miring sepanjang 10 cm. Hitung sin θ, cos θ, dan tan θ!</p>
+                        
+                        <div class="solution">
+                            <h4><i class="fas fa-cogs"></i> Penyelesaian:</h4>
+                            <ol>
+                                <li>Diketahui: depan = 6 cm, miring = 10 cm</li>
+                                <li>Cari sisi samping dengan teorema Pythagoras: samping = √(miring² - depan²) = √(100 - 36) = √64 = 8 cm</li>
+                                <li>sin θ = depan/miring = 6/10 = 0.6</li>
+                                <li>cos θ = samping/miring = 8/10 = 0.8</li>
+                                <li>tan θ = depan/samping = 6/8 = 0.75</li>
+                            </ol>
+                        </div>
+                    </div>
+                    
+                    <div class="example">
+                        <h3>Contoh Soal 2</h3>
+                        <p>Sebuah tangga bersandar pada tembok dengan sudut 60° terhadap tanah. Jika panjang tangga 5 meter, berapa tinggi tembok yang dicapai tangga?</p>
+                        
+                        <div class="solution">
+                            <h4><i class="fas fa-cogs"></i> Penyelesaian:</h4>
+                            <ol>
+                                <li>Diketahui: sudut = 60°, miring = 5 m</li>
+                                <li>Kita mencari tinggi tembok (sisi depan sudut)</li>
+                                <li>sin 60° = depan / miring</li>
+                                <li>depan = miring × sin 60° = 5 × √3/2 ≈ 5 × 0.866 = 4.33 meter</li>
+                                <li>Jadi tinggi tembok yang dicapai tangga adalah 4.33 meter</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+
+                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card formula-card">
+                    <h2><i class="fas fa-list-alt"></i> Rumus-Rumus Penting</h2>
+                    <div class="formulas">
+                        <div class="formula-item">
+                            <h3>Identitas Dasar</h3>
+                            <p>sin² θ + cos² θ = 1</p>
+                            <p>tan θ = sin θ / cos θ</p>
+                        </div>
+                        <div class="formula-item">
+                            <h3>Sudut Istimewa</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Sudut</th>
+                                        <th>sin</th>
+                                        <th>cos</th>
+                                        <th>tan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>0°</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30°</td>
+                                        <td>1/2</td>
+                                        <td>√3/2</td>
+                                        <td>√3/3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>45°</td>
+                                        <td>√2/2</td>
+                                        <td>√2/2</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>60°</td>
+                                        <td>√3/2</td>
+                                        <td>1/2</td>
+                                        <td>√3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>90°</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>∞</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="formula-item">
+                            <h3>Konversi Sudut</h3>
+                            <p>1° = π/180 radian</p>
+                            <p>1 radian = 180°/π ≈ 57.2958°</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <p>Proyek Pembelajaran Trigonometri &copy; 2026 - kelompok RPL</p>
+            <p>Anggota: Bumi, Brilian, Danis, Tofan</p>
+            <p class="footer-note">Website ini dibuat dengan HTML, CSS, dan JavaScript untuk mempelajari konsep trigonometri secara interaktif.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
